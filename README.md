@@ -25,7 +25,7 @@ We get the data from “The Food and Agriculture Organization of the United Nati
 5) What will be your unit of analysis (for example, patient, organization, or country)? Roughly how many units (observations) do you expect to analyze?
 
 Ans)
-My unit of analysis is the country, at a certain year. We will be working in 195 countries, from the year 1961-2019. We will also be working on 
+My unit of analysis is the country, at a certain year. We will be working in 195 countries, from the year 1961-2019.
  
 6) What variables/measures do you plan to use in your analysis (variables should be tied to the questions in #3)?
 
@@ -40,7 +40,7 @@ We will be working on prediction models like Logistic regression, Rigid Regressi
 8) How do you plan to develop/apply ML and how do you evaluate/compare the performance of the models?
 
 Ans)
-I will be using various Prediction and classification models mentioned above to get the required results. I will be evaluating and comparing the models using cross-validation of all the models.
+I will be using various Prediction and classification models mentioned above to get the required results. I will be evaluating and comparing the models using cross-validation on all the models.
  
 9) What outcomes do you intend to achieve (better understanding of problems, tools to help solve problems, predictive analytics with practical applications, etc)?
 
