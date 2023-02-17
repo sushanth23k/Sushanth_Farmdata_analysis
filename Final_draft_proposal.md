@@ -15,9 +15,9 @@ Ans)
 
 Ans)
 > - What is the best kind of crop type to be placed on the land? It can be solved by comparing the lands with numerous attributes.
-- How to increase the crop production of the land. It is done by understanding the various parameters which are increasing yield.
-- Which kinds of crops and livestock are best for decreasing malnutrition?
-- What kind of crop and life stock production will help increase or decrease population?
+> - How to increase the crop production of the land. It is done by understanding the various parameters which are increasing yield.
+> - Which kinds of crops and livestock are best for decreasing malnutrition?
+> - What kind of crop and life stock production will help increase or decrease population?
  
  
 **4) Where do you get the data to analyze and help answer your questions (creditability of source, quality of 
