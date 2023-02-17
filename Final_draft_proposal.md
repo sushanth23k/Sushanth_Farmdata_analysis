@@ -14,10 +14,10 @@ Ans)
 **3) What questions do you have in mind and would like to answer?**
 
 Ans)
-=> What is the best kind of crop type to be placed on the land? It can be solved by comparing the lands with numerous attributes.
-=> How to increase the crop production of the land. It is done by understanding the various parameters which are increasing yield.
-=> Which kinds of crops and livestock are best for decreasing malnutrition?
-=> What kind of crop and life stock production will help increase or decrease population?
+> - What is the best kind of crop type to be placed on the land? It can be solved by comparing the lands with numerous attributes.
+- How to increase the crop production of the land. It is done by understanding the various parameters which are increasing yield.
+- Which kinds of crops and livestock are best for decreasing malnutrition?
+- What kind of crop and life stock production will help increase or decrease population?
  
  
 **4) Where do you get the data to analyze and help answer your questions (creditability of source, quality of 
@@ -29,7 +29,7 @@ Ans)
 **5) What will be your unit of analysis (for example, patient, organization, or country)? Roughly how many units (observations) do you expect to analyze?**
 
 Ans)
-My unit of analysis is the country, at a certain year for both the data combined. We will be working in 195 countries, from the year 1961-2019.
+> My unit of analysis is the country, at a certain year for both the data combined. We will be working in 195 countries, from the year 1961-2019.
  
 **6) What variables/measures do you plan to use in your analysis (variables should be tied to the questions in #3)?**
 
