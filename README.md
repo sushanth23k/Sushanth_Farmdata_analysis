@@ -1,4 +1,4 @@
-*UMBC DATA SCIENCE Capstone Project*
+# UMBC DATA SCIENCE Capstone Project
 
 
 > Author: Sushanth Kumar Panasa
