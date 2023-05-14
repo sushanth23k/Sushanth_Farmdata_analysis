@@ -9,6 +9,7 @@
 https://github.com/sushanth23k/Sushanth_Farmdata_analysis/raw/main/docs/capstone.pptx
 
 **Code:**
+https://github.com/sushanth23k/Sushanth_Farmdata_analysis/blob/main/src/Project_final.ipynb
 
 **Youtube Video:**
 
