@@ -221,6 +221,15 @@ In addition to the insights gained from the exploratory analysis, predictive mod
 
 Overall, the analysis and predictive modeling performed in this project contribute to a comprehensive understanding of the farm-livestock-population dynamics. The insights obtained can inform decision-making processes in the agricultural sector, facilitating sustainable practices, resource allocation, and food security measures.
 
+# References:
+
+- "Crop and livestock data" from Food and Agriculture Organization of the United Nations (FAO):
+  - https://www.fao.org/faostat/en/#data/QCL
+- "Population data" from UN's Department of Economic and Social Affairs, Population Division:
+  - https://population.un.org/wpp/Download/Archive/CSV/
+- "Half of the world’s habitable land is used for agriculture" from Our World in Data:
+  - https://ourworldindata.org/global-land-for-agriculture
+
 
 
 
