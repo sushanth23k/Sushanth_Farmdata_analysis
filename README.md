@@ -27,7 +27,7 @@ There are 2 data sets we will be working in this Project, this data sets with co
 - The second data set is the population data from UN which is the empirical data which show revised estimates of various demographic components (population, mortality, migration) for different countries or regions for the period of 1950-2021.
   - https://population.un.org/wpp/Download/Archive/CSV/
 
-# Merged Dataset based on Country:
+# Data Discription:
 
 After combining 2 datasets and removing the uncessary columns we get the dataset as shown below:
 
@@ -110,6 +110,118 @@ These graphs represents highest and lowest countries with livestock animals per 
 <img width="316" alt="image" src="https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/505825e3-72c3-4273-b6a9-c816b315908a">
 
 As we can see a unique case of Japan which is not city state such as Singapore and Hong Kong is in the list of countries with lowest ratio.
+
+# Exploratory data analysis:
+
+Discription of the data is as follows:
+
+![image](https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/f56ff1d7-3d6c-426e-bae7-764eabfa6180)
+
+Correlation matrix of the data is as follows:
+
+<img width="555" alt="image" src="https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/b2faf728-7cf0-42eb-9eaa-9cdc39a70fe5">
+
+Boxplot of all the values in the dataset:
+
+![image](https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/69fccb3e-4fdf-4a93-8902-89ff3262bbf1)
+
+
+# Finding and Removing Outliers:
+
+We get all the outliers of the contionous features in the dataset. Some of the outliers are as follows:
+
+![image](https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/c651d40c-1f24-401c-bab6-8f2d1a6b3c71)
+
+The number of outliers removed are as follows:
+
+![image](https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/81a2cc7d-278d-4ea9-bc82-3500965ccc9f)
+
+
+# Machine Learning Framework:
+
+The ML opeation done on the dataset till now are as below:
+
+- Merging Data: This step involves combining different datasets or sources of data that are relevant to the project. It could include merging crop data, livestock data, and population data based on common identifiers such as area, year, or other relevant columns. Merging the data allows for a comprehensive analysis that considers multiple factors simultaneously.
+- Basic Cleaning: In this step, the dataset is cleaned to ensure data quality and consistency. It involves handling missing values, removing duplicate entries, and addressing any inconsistencies or errors in the data. Cleaning the data helps to ensure accurate and reliable analysis.
+- Encoding: Encoding involves converting categorical variables into numerical representations to make them suitable for analysis. It may include techniques such as one-hot encoding or label encoding, depending on the nature of the categorical data. Encoding allows for the inclusion of categorical variables in ML models.
+- Exploratory Data Analysis (EDA): EDA is a critical step in understanding the dataset and exploring relationships between variables. It involves statistical analysis, visualization, and summary statistics to identify patterns, trends, and correlations within the data. EDA helps in uncovering insights and formulating hypotheses for further analysis.
+- Finding Outliers: Outliers are data points that significantly deviate from the overall pattern of the dataset. Finding and analyzing outliers helps in understanding anomalies in the data and their potential impact on the analysis. Outliers can be identified using statistical techniques or visualization methods.
+- Removing Outliers: Once outliers are identified, they can be removed from the dataset if deemed necessary. Removing outliers helps in improving the accuracy and reliability of subsequent analyses and model building.
+
+The overall ML frame work of the project is as follows:
+
+<img width="1060" alt="Screenshot 2023-05-14 at 5 29 37 PM" src="https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/f4e41758-0ecf-4abd-ad78-cb7f78571b50">
+
+
+## Case 1: Continent (Discrete Data):
+
+- Preparing Data: This step involves preparing the data by performing tasks such as handling missing values, encoding categorical variables (if any), and scaling or normalizing numerical features. The goal is to ensure the data is in a suitable format for analysis.
+- Feature Selection: In this step, relevant features are selected from the dataset that are most informative for predicting the target variable. Techniques such as statistical tests, correlation analysis, or domain knowledge can be used to identify the most significant features.
+- Splitting Data: The dataset is divided into training and testing datasets. The training dataset is used to train the machine learning models, while the testing dataset is used to evaluate the performance of the models.
+- Model Building:
+  - Logistic Regression: Logistic Regression is a classification algorithm used to predict categorical outcomes based on input features. It models the relationship between the independent variables and the probability of a specific outcome.
+  - K-Neighbors Classifier: The K-Neighbors Classifier algorithm classifies data points based on their similarity to other data points in the training dataset. It assigns the most common class label among the k-nearest neighbors.
+  - Decision Tree Classifier: The Decision Tree Classifier algorithm creates a tree-like model of decisions and their possible consequences. It splits the data based on different feature values to build a predictive model.
+- Handling Imbalances (SMOTE): Imbalanced datasets occur when one class is significantly more prevalent than the other(s). In this step, SMOTE (Synthetic Minority Oversampling Technique) can be used to address the imbalance by generating synthetic examples of the minority class to balance the dataset.
+- Best Model based on Accuracy: The models built in the previous steps are evaluated based on their accuracy on the testing dataset. The model with the highest accuracy is selected as the best model for predicting the continent variable.
+
+
+## Case 2: Area (Continuous Data):
+
+- Preparing Data: This step involves preparing the data by performing tasks such as handling missing values, scaling or normalizing the continuous features, and encoding categorical variables (if any). The goal is to ensure the data is in a suitable format for analysis.
+- Feature Selection: In this step, you identify and select the most relevant features from the dataset. This can be done using techniques like correlation analysis, feature importance, or dimensionality reduction methods.
+- Splitting Data: The dataset is split into training and testing subsets. The training set is used to train the models, while the testing set is used to evaluate their performance
+- Model Selection:
+  - Decision Tree Classifier: This algorithm creates a decision tree based on the training data, where each node represents a feature and each branch represents a decision rule. It is suitable for classification tasks.
+  - Random Forest Regression: This algorithm creates an ensemble of decision trees and makes predictions by aggregating the results of individual trees. It is suitable for regression tasks.
+- Best Model based on Accuracy: The performance of each model is evaluated based on accuracy, which measures the percentage of correctly predicted instances. The model with the highest accuracy is selected as the best model for predicting the target variable.
+
+
+# Prediction Modelling:
+## Case 1: Predicting best Continent:
+
+#### Before SMOTE:
+
+![image](https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/9ebea4ea-34bc-485e-969b-b01936be416a)
+
+![image](https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/0489e68e-56df-46f6-a8bc-28ef073446dd)
+
+![image](https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/7d8a45cd-3010-4fb3-81a3-1851c3c75e69)
+
+In this case we see that K-Neighbors Classifier has best outcomes. As we can see from the confusion matrix that atlest 50% percent of the prediction are correct (Blue in diagonal Values).
+
+
+#### After SMOTE:
+
+![image](https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/40936ce3-06a1-4369-903a-610177a22a5a)
+
+![image](https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/50b77393-2ef2-4681-b71d-c5720619507e)
+
+![image](https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/9584a163-7bc2-467a-8cb4-d7319a3d4f99)
+
+In this case we see that K-Neighbors Classifier has best outcomes after performing SMOTE on data. As we can see from the confusion matrix that atlest 65% percent of the prediction are correct (Blue in diagonal Values) and almost none of the other values has atlest 10% correct predictions.
+
+
+# Prediction Modelling:
+## Case 2: Predicting the necesary Area:
+
+![image](https://github.com/sushanth23k/Sushanth_Farmdata_analysis/assets/40069679/6ac64ee6-e628-4594-bbbb-4ea0615c8e6d)
+
+We can say that Random Forest Regression is the best Model for this case.
+
+# Conclusion:
+
+The farm_livestock_population project aimed to analyze and draw insights from the provided dataset, focusing on various aspects of agriculture, livestock, and population data. Additionally, predictive modeling was performed to forecast outcomes based on the available features.
+
+The analysis revealed interesting insights into different areas of the agricultural landscape. For instance, the examination of yogurt production per person highlighted the top countries where yogurt production is highest, showcasing the efficiency of smaller countries with lower population density in this particular aspect.
+
+Furthermore, the analysis of beef production by country unveiled unique cases such as Brazil, which demonstrated high beef production despite having a smaller population compared to countries like the USA and China. This emphasizes Brazil's efficiency and productivity in the beef industry.
+
+In addition to the insights gained from the exploratory analysis, predictive modeling was performed to forecast outcomes based on the available features. The models, including logistic regression, K-Neighbors Classifier, and decision tree classifiers, provided valuable predictions for continent classification and necessary area estimation. The best-performing models were selected based on accuracy metrics, demonstrating the potential for accurate predictions using the dataset.
+
+Overall, the analysis and predictive modeling performed in this project contribute to a comprehensive understanding of the farm-livestock-population dynamics. The insights obtained can inform decision-making processes in the agricultural sector, facilitating sustainable practices, resource allocation, and food security measures.
+
+
 
 
 
