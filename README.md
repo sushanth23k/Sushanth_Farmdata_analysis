@@ -3,6 +3,16 @@
 
 **Author** : Sushanth Kumar Panasa<br />**Semester**: Spring'23<br />**Campus ID**: YY72411
 
+# Links:
+
+**Presentation:**
+https://github.com/sushanth23k/Sushanth_Farmdata_analysis/raw/main/docs/capstone.pptx
+
+**Code:**
+
+**Youtube Video:**
+
+
 # Introduction:
 The agriculture industry is under extreme strain to supply the increased demand for food as a result of the population's exponential growth. Food shortages and issues with food security are more likely to occur as the population grows. Incorporating population data into our study can help us comprehend the scope of the problem and create solutions to lessen its effects.
 
