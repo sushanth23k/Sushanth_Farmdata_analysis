@@ -1,7 +1,7 @@
-# UMBC DATA SCIENCE Capstone Project<br /> Chaojie Wang
+# Farm Data Analysis
 
 
-**Author** : Sushanth Kumar Panasa<br />**Semester**: Spring'23<br />**Campus ID**: YY72411
+**Author** : Sushanth Kumar Panasa
 
 # Links:
 
